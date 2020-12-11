@@ -11,5 +11,5 @@ Online Shopping website using Advanced Java (Flipkart Clone)
 <img src="images/Payment.png"/>
 <img src="images/Profile.png"/>
 <img src="images/Place Order.png"/>
-<img src="images/Placed Order.png"/>
-<img src="images/ProductDesc.png"/>
+<img src="images/Placed Orders.png"/>
+<img src="images/Product Desc.png"/>
