@@ -1,0 +1,207 @@
+body{
+	margin:0;
+	padding:0;
+	background-color:#F1F3F6;
+}
+.header{
+	position:relative;
+	background-color:#2874EF;
+	height:55px;
+	width:100%;
+	position:fixed;
+	z-index:3;
+	box-shadow:0 5px 15px -3px #000;
+}
+.headerlabel{
+	margin:5px;
+	margin-left:200px;
+	position:fixed;
+	text-align:center;
+	color:white;
+	font-size:25px;
+	font-family:cursive;
+	font-weight:800;
+}
+h3{
+	margin:0;
+	margin:10px;
+}
+.address-div{
+	position:absolute;
+	margin-top:75px;
+	background-color:white;
+	width:55vw;
+	margin-left:50px;
+}
+.payment-div{
+	position:absolute;
+	margin-top:315px;
+	background-color:white;
+	width:55vw;
+	margin-left:50px;
+}
+.edit-info-btn{
+	width:100px;
+	height:30px;
+	background-color:white;
+	border:1px solid blue;
+	color:blue;
+	margin:5px;
+	border-radius:10px;
+	text-decoration:none;
+	text-align:center;
+	float:right;
+	font-size:15px;
+}
+.address-div-header{
+	height:40px;
+	width:100%;
+	display:inline-block;
+	background:blue;
+}
+.payment-div-header{
+	height:40px;
+	width:100%;
+	display:inline-block;
+	background:blue;
+}
+.address-div-header>label{
+	color:white;
+	font-weight:700;
+	margin-left:20px;
+	font-size:18px;
+	float:left;
+	margin-top:10px;
+}
+.payment-div-header>label{
+	color:white;
+	font-weight:700;
+	margin-left:20px;
+	font-size:18px;
+	float:left;
+	margin-top:10px;
+}
+.edit-info-btn:hover{
+	cursor:pointer;
+	box-shadow:-1px 1px 5px #000;
+}
+#delivery_address{
+	width:400px;
+	display:inline;
+	height:30px;
+	border:none;
+	margin-left:10px;
+	margin-bottom:10px;
+	border-bottom:1px solid #ccc;
+	outline:none;
+	font-size:16px;
+	padding-left:10px;
+}
+#delivery_address:focus::-webkit-input-placeholder{
+	opacity:0;
+	transform:translate(70%);
+	-webkit-transition: all 0.35s ease-in-out;
+  	transition: all 0.35s ease-in-out;
+}
+.payment-options-div{
+	float:left;
+	width:200px;
+	height:300px;
+	background:white;
+	border-right:1px solid #ccc;
+}
+.payment-option-btn{
+	width:100%;
+	height:60px;
+	background-color:white;
+	border:none;
+	border-bottom:1px solid #ccc;
+	font-size:18px;
+	outline:none;
+}
+.active{
+	box-shadow:1px 1px 6px #ccc;
+	z-index:3;
+}
+.debit-selection-div{
+	display:none;
+	float:left;
+	margin:0;
+	margin-left:20px;
+}
+.cod-selection-div{
+	margin:0;
+	display:none;
+	float:left;
+	margin-left:20px;
+}
+.show{
+	display:block;
+}
+.payment-details-div{
+	float:right;
+	width:30vw;
+	margin-top:75px;
+	background:white;
+	margin-right:50px;
+}
+.payment-details-header{
+	background:blue;
+	width:100%;
+	height:40px;
+	float:left;
+}
+.payment-details-footer{
+	padding:10px;
+	border-top:1px solid #ccc;
+}
+#place-order-btn{
+	background:grey;
+	color:white;
+	height:40px;
+	width:150px;
+	float:right;
+	margin-bottom:10px;
+	border:none;
+	font-weight:700;
+	font-size:14px;
+	margin-top:10px;
+}
+#place-order-btn:hover{
+	box-shadow:-2px 2px 5px #ccc;
+	transform:translateY(-1px);
+	cursor:pointer;
+}
+.items-list{
+	margin:0;
+	padding:0;
+}
+#card_number{
+	width:300px;
+	height:40px;
+	border:1px solid #ccc;
+	border-radius:5px;
+	outline:none;
+	margin-top:20px;
+	font-size:18px;
+	padding-left:10px;
+}
+#expiry_month{
+	padding:5px;
+}
+#verify_debit{
+	width:200px;
+	height:40px;
+	color:white;
+	background:green;
+	border-radius:5px;
+	margin-top:10px;
+	font-size:18px;
+	font-weight:700;
+}
+.items-row-div{
+	float:left;
+	width:100%;
+	height:40px;
+	border-bottom:1px solid #f1f3f5;
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>OnlineShopping</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>index.jsp</servlet-name>
+    <jsp-file>/index.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>index.jsp</servlet-name>
+    <url-pattern>/index</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>searchresult.jsp</servlet-name>
+    <jsp-file>/searchresult.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>searchresult.jsp</servlet-name>
+    <url-pattern>/Search</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>cart.jsp</servlet-name>
+    <jsp-file>/cart.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>cart.jsp</servlet-name>
+    <url-pattern>/Cart</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>checkout.jsp</servlet-name>
+    <jsp-file>/checkout.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>checkout.jsp</servlet-name>
+    <url-pattern>/Checkout</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>profile.jsp</servlet-name>
+    <jsp-file>/profile.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>profile.jsp</servlet-name>
+    <url-pattern>/Profile</url-pattern>
+  </servlet-mapping>
+</web-app>

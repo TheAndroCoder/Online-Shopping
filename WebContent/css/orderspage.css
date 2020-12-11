@@ -1,0 +1,85 @@
+body{
+	margin:0;
+	padding:0;
+	background-color:#F1F3F6;
+}
+.header{
+	position:relative;
+	background-color:#2874EF;
+	height:55px;
+	width:100%;
+	position:fixed;
+	z-index:3;
+	box-shadow:0 5px 15px -3px #000;
+}
+.headerlabel{
+	margin:5px;
+	margin-left:200px;
+	position:fixed;
+	text-align:center;
+	color:white;
+	font-size:25px;
+	font-family:cursive;
+	font-weight:800;
+}
+.orders-div{
+	position:absolute;
+	width:70%;
+	background-color:white;
+	margin-top:70px;
+	left:15vw;
+}
+.orders-row-div{
+	border:1px solid #ccc;
+	height:200px;
+	margin:10px;
+}
+.orders-row-div-header{
+	width:100%;
+	height:50px;
+	background-color:#f1f3f5;
+	border-bottom:1px solid #ccc;
+}
+.order-id-btn{
+	float:left;
+	width:200px;
+	height:40px;
+	border:none;
+	background-color:blue;
+	color:white;
+	font-size:16px;
+	margin-top:4px;
+	margin-left:10px;
+}
+.track-btn{
+	float:right;
+	width:100px;
+	height:40px;
+	border:none;
+	background-color:white;
+	color:blue;
+	font-size:16px;
+	margin-top:4px;
+	margin-right:10px;
+	
+}
+.invoice-btn{
+	float:right;
+	width:100px;
+	height:40px;
+	border:none;
+	background-color:white;
+	color:blue;
+	font-size:16px;
+	margin-top:4px;
+	margin-right:10px;
+}
+#cancel-item{
+	width:130px;
+	height:30px;
+	border:none;
+	border-radius:5px;
+	background-color:blue;
+	color:white;
+	margin-right:10px;
+}
